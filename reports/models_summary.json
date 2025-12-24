@@ -1,0 +1,65 @@
+[
+  {
+    "model": "logreg",
+    "accuracy": 0.9125,
+    "precision_ai": 0.9459459459459459,
+    "recall_ai": 0.875,
+    "f1_ai": 0.9090909090909091,
+    "confusion_matrix_labels": [
+      "human",
+      "ai"
+    ],
+    "confusion_matrix": [
+      [
+        570,
+        30
+      ],
+      [
+        75,
+        525
+      ]
+    ]
+  },
+  {
+    "model": "svm_calibrated",
+    "accuracy": 0.9325,
+    "precision_ai": 0.9346733668341709,
+    "recall_ai": 0.93,
+    "f1_ai": 0.9323308270676691,
+    "confusion_matrix_labels": [
+      "human",
+      "ai"
+    ],
+    "confusion_matrix": [
+      [
+        561,
+        39
+      ],
+      [
+        42,
+        558
+      ]
+    ]
+  },
+  {
+    "model": "multinomial_nb",
+    "accuracy": 0.6908333333333333,
+    "precision_ai": 0.6374549819927972,
+    "recall_ai": 0.885,
+    "f1_ai": 0.741102581995813,
+    "confusion_matrix_labels": [
+      "human",
+      "ai"
+    ],
+    "confusion_matrix": [
+      [
+        298,
+        302
+      ],
+      [
+        69,
+        531
+      ]
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "model": "logreg",
+  "accuracy": 0.9125,
+  "precision_ai": 0.9459459459459459,
+  "recall_ai": 0.875,
+  "f1_ai": 0.9090909090909091,
+  "confusion_matrix_labels": [
+    "human",
+    "ai"
+  ],
+  "confusion_matrix": [
+    [
+      570,
+      30
+    ],
+    [
+      75,
+      525
+    ]
+  ]
+}

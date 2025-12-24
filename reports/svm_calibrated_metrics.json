@@ -1,0 +1,21 @@
+{
+  "model": "svm_calibrated",
+  "accuracy": 0.9325,
+  "precision_ai": 0.9346733668341709,
+  "recall_ai": 0.93,
+  "f1_ai": 0.9323308270676691,
+  "confusion_matrix_labels": [
+    "human",
+    "ai"
+  ],
+  "confusion_matrix": [
+    [
+      561,
+      39
+    ],
+    [
+      42,
+      558
+    ]
+  ]
+}

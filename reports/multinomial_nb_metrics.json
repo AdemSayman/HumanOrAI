@@ -1,0 +1,21 @@
+{
+  "model": "multinomial_nb",
+  "accuracy": 0.6908333333333333,
+  "precision_ai": 0.6374549819927972,
+  "recall_ai": 0.885,
+  "f1_ai": 0.741102581995813,
+  "confusion_matrix_labels": [
+    "human",
+    "ai"
+  ],
+  "confusion_matrix": [
+    [
+      298,
+      302
+    ],
+    [
+      69,
+      531
+    ]
+  ]
+}
